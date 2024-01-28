@@ -10,17 +10,95 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid border" style="height: 17vmin;">#header text</div>
-    <div class="container-fluid border" style="margin-top:5vmin;">
-        <div class="row">
-            <div class="col-lg-4 border" style="height:75vmin">
-                ##card 1 careers
+    <div class="container-fluid" style="height: 17vmin;display: flex;justify-content: center;align-items: center;margin-top: 4vmin;">
+        <div class="careerHeaderText" style="display: flex;flex-direction: column;align-items: center;justify-content: center;">
+            <p style="font-size: 7vmin;font-weight: bold;color:rgb(255, 124, 9)">Careers</p>
+                <p  style="margin-top: -2.5vmin;color:rgb(255, 124, 9);font-size: 3.75vmin;">( open job/internship roles )</p>
+        </div>
+    </div>
+    <div class="container-fluid " style="margin-top:5vmin;">
+        <div class="row"  style="display: flex;flex-wrap:wrap;row-gap: 2.5vmin;">
+            <div class="col-lg-4" style="display: flex;justify-content: center;align-items: center;">
+                <div class="card" style="margin-top: 10vmin;margin-left: 3vmin;">
+                    <div class="imageHolder" style="display: flex;justify-content: center;align-items: center;margin-top: 4.5vmin;">
+                    <img class="" src="images/webD.png" alt="Card image cap" height="135" width="135">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: center;font-weight: 800;font-size: 3.5vmin;">
+                         Web Dev Intern
+                     </p>
+                     <p><b>Experience:</b> 0-1 years</p>
+                    
+                     <p><b>Technical:</b> HTML,CSS,JS and PHP/Django</p>
+                     <p><b>Benefits:</b> Experience Certificate,
+                     PPOs on performance
+                    </p>
+                     <div class="buttonHolder" style="display: flex;justify-content: center;align-items: center;">
+                            <button class="btn btn-primary">Explore</button>
+                     </div>
+                    </div>
+                  </div>
             </div>
-            <div class="col-lg-4 border" style="height:75vmin">
-            #card 2 careers    
+            <div class="col-lg-4" style="display: flex;justify-content: center;align-items: center;">
+                <div class="card" style="margin-top: 10vmin;margin-left: 3vmin;">
+                    <div class="imageHolder" style="display: flex;justify-content: center;align-items: center;margin-top: 4.5vmin;">
+                    <img class="" src="images/android.webp" alt="Card image cap" height="135" width="135">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: center;font-weight: 800;font-size: 3.5vmin;">
+                         Android Dev Intern
+                     </p>
+                     <p><b>Experience:</b> 0-1 years</p>
+                   
+                     <p><b>Technical:</b> XML,Android Basics,java/kotlin</p>
+                     <p><b>Benefits:</b> Experience Certificate,
+                     PPOs on performance
+                    </p>
+                     <div class="buttonHolder" style="display: flex;justify-content: center;align-items: center;">
+                            <button class="btn btn-primary">Explore</button>
+                     </div>
+                    </div>
+                  </div>
             </div>
-            <div class="col-lg-4 border" style="height:75vmin">#card 3 careers</div>
+            <div class="col-lg-4" style="display: flex;justify-content: center;align-items: center;">
+                <div class="card" style="margin-top: 10vmin;margin-left: 3vmin;">
+                    <div class="imageHolder" style="display: flex;justify-content: center;align-items: center;margin-top: 4.5vmin;">
+                    <img class="" src="images/UI-UX.webp" alt="Card image cap" height="135" width="135">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: center;font-weight: 800;font-size: 3.5vmin;">
+                         UI/UX Intern
+                     </p>
+                     <p><b>Experience:</b> 0-1 years</p>
+                     <p><b>Technical:</b> Figma,Adobe XD,Design basics</p>
+                     <p><b>Benefits:</b> Experience Certificate,
+                     PPOs on performance
+                    </p>
+                     <div class="buttonHolder" style="display: flex;justify-content: center;align-items: center;">
+                            <button class="btn btn-primary">Explore</button>
+                     </div>
+                    </div>
+                  </div>
+            
+            </div>
             </div>
     </div>
 </body>
 </html>
+
+
+<style>
+    .cardHolder{
+        height:70vmin;
+        width:60vmin;
+        border:1px solid grey;
+    }
+    .card{
+        box-shadow: 3px 5px 10px 5px;
+    }
+    @media(min-width:1726px){
+        .card{
+            width: 32rem;
+        }
+    }
+</style>
